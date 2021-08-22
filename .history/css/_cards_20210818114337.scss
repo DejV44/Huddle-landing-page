@@ -1,0 +1,41 @@
+.cards {
+    padding: 4rem 1.5rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+   
+    .card-one, .card-two, .card-three {
+        @include cards;
+    }
+
+    .ready {
+        display: block;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 0 auto;
+        padding: 1.5rem 2rem;
+        box-shadow: rgba(39, 39, 39, 0.24) 0px 3px 8px;
+        max-width: 600px;
+        text-align: center;
+        align-items: center;
+        h2 {
+            font-size: 28px;
+            
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 17px;
+            margin: 4rem auto;
+            padding: 1rem 0;
+            max-width: 350px;
+            border-radius: 30px;
+            background: $Pink;
+            color: white;
+            box-shadow: rgba(39, 39, 39, 0.24) 0px 3px 8px;
+        }
+    }
+
+}

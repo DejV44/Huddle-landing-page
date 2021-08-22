@@ -1,0 +1,112 @@
+header {
+    background: url(/images/bg-hero-mobile.svg);
+    background-color: rgb(241, 241, 255);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 1.6rem;
+
+        
+        img {
+            width: 120px;   
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+            margin-top: -4px;
+            padding: 0.3rem 1.7rem;
+            background-color: white;
+            border-radius: 25px;
+            box-shadow: rgba(99, 99, 99, 0.24) 0px 3px 8px;
+
+            &:hover {
+                color: $GrayishBlue;
+            }
+
+            
+        }
+        
+    }
+    .main {
+
+        margin: 0 auto;
+
+        .building {
+            margin: 4rem 3rem 2rem 3rem;
+            
+            
+
+            h1 {
+                margin: 0 1rem;
+                font-size: 28px;
+                font-family: 'Poppins', sans-serif
+            }
+
+            h3 {
+                font-weight: 400;
+                font-size: 18px;
+                margin: 1.5rem 0;
+                line-height: 30px;
+            }
+
+            .main-btn {
+
+                display: block;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 12px;
+                margin: 1.5rem auto;
+                padding: 1rem 0;
+                max-width: 280px;
+                border-radius: 30px;
+                background: $Pink;
+                color: white;
+                box-shadow: rgba(39, 39, 39, 0.24) 0px 3px 8px;
+
+                &:hover {
+                background: $PinkHover;
+            }
+            }
+   
+        }
+        .img-main {
+            padding: 15px 50px;
+            
+            .img {
+                width: 100%;
+                margin-bottom: 40px;    
+            }
+        }
+    }    
+    
+    
+}
+
+@media (min-width: 768px) {
+    .main {
+        display: flex;
+        align-items: center;
+        .building {
+            padding: 1rem;
+            h1 {
+                text-align: left;
+                padding-left: 0;
+            }
+            h3 {
+                text-align: left;
+                padding-left: 1rem;
+            }
+            .main-btn {
+                margin: 1.5rem 0;
+                left: 0;
+            }
+        }
+    }
+}

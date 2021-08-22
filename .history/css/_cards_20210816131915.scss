@@ -1,0 +1,22 @@
+.cards {
+    padding: 4rem 1.5rem;
+    margin: 0 auto;
+   
+    .card-one, .card-two, .card-three {
+        @include cards;
+    }
+
+    .ready {
+        text-align: center;
+        
+        h2 {
+            font-size: 28px;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+        }
+    }
+
+}

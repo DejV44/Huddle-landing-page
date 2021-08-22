@@ -1,0 +1,8 @@
+.cards {
+    padding: 4rem 3rem;
+   
+    .card-one, .card-two, .card-three {
+        @include cards;
+    }
+
+}

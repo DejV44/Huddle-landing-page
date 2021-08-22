@@ -1,0 +1,21 @@
+header {
+    background: url(/images/bg-hero-mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 1.6rem;
+
+        
+        img {
+            width: 130px;   
+        }
+
+        a {
+            text-decoration: none;
+        }
+        
+    }
+}

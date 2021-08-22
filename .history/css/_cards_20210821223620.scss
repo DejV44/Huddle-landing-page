@@ -1,0 +1,63 @@
+.cards {
+    padding: 1rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+   
+    .card-one, .card-two, .card-three {
+        @include cards;
+    }
+
+    .ready {
+        display: block;
+        box-sizing: border-box;
+        text-align: center;
+        transform: translateY(50%);
+        background-color: white;
+        margin: 0 auto;
+        padding: 1rem 1rem;
+        box-shadow: rgba(39, 39, 39, 0.24) 0px 3px 8px;
+        max-width: 600px;
+        text-align: center;
+        align-items: center;
+        border-radius: 18px;
+        h2 {
+            font-size: 21px;
+            font-family: 'Poppins', sans-serif;
+            margin: 1.5rem auto;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 12px;
+            margin: 1.5rem auto;
+            padding: 1rem 0;
+            max-width: 250px;
+            border-radius: 30px;
+            background: $Pink;
+            color: white;
+            box-shadow: rgba(39, 39, 39, 0.24) 0px 3px 8px;
+
+            &:hover {
+                background: $PinkHover;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 768px) {
+    .cards {
+       padding: 5rem;
+       
+       .card-two {
+        flex-direction: row-reverse;
+    }
+    }
+
+    
+
+
+}

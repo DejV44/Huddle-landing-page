@@ -1,0 +1,43 @@
+@mixin cards {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem auto;
+    text-align: center;
+    box-shadow: rgba(17, 17, 26, 0.048) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border-radius: 25px;
+    align-items: center;
+    
+    
+
+    .card {
+        display: block;
+        margin: auto 3rem;
+        h2 {
+            padding-bottom: 1.5rem;
+            font-size: 30px;
+        }
+        p {
+            display: block;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 17px;
+            margin: 4rem auto;
+            padding: 1rem 0;
+            max-width: 350px;
+            border-radius: 30px;
+            background: $Pink;
+            color: white;
+            box-shadow: rgba(39, 39, 39, 0.24) 0px 3px 8px;
+        }
+    }
+    .img-cards {
+        display: block;
+        padding: 30px 50px;
+        margin: auto;
+            
+            img {
+                width: 90%;
+                margin: 40px auto;    
+            }
+    }
+}

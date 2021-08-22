@@ -1,0 +1,29 @@
+@mixin cards {
+    margin: 2rem 1rem;
+    text-align: center;
+    box-shadow: rgba(39, 39, 39, 0.24) 0px 3px 8px;
+    border-radius: 25px;
+
+    .card {
+        display: block;
+        margin: 0rem 3rem;
+        h2 {
+            padding-bottom: 1.5rem;
+            font-size: 30px;
+        }
+        p {
+            font-size: 20px;
+            color: $GrayishBlue;
+            margin-bottom: 2rem;
+        }
+    }
+    .img-cards {
+        padding: 30px 50px;
+        
+            
+            img {
+                width: 100%;
+                margin-bottom: 40px;    
+            }
+    }
+}
